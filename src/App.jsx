@@ -1,16 +1,18 @@
-import "./App.css";
+import About from "./components/About";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
 
 function App() {
   return (
-    <>
-      <div>
-        <h2>Hi! My Name is Agus Pranyoto, I am a Front End Developer</h2>
-      </div>
-      <div>
-        <h2>This Website is Under Construction.</h2>
-        <h2>Content Will be Available Soon.</h2>
-      </div>
-    </>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Work />
+    </div>
   );
 }
 
